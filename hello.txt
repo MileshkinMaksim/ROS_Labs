@@ -1,1 +1,0 @@
-Hello GihTubesv1source /opt/ros/humble/setup.bash
