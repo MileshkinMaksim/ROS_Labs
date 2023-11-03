@@ -1,0 +1,35 @@
+[0.354s] Invoking command in '/home/ubumax/ROS_Labs/Module2/ex03/MileshkinMaksim': PYTHONPATH=/home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/prefix_override:/home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/MileshkinMaksim build --build-base /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build install --record /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/install.log --single-version-externally-managed
+[0.492s] running egg_info
+[0.492s] creating ../build/MileshkinMaksim/MileshkinMaksim.egg-info
+[0.493s] writing ../build/MileshkinMaksim/MileshkinMaksim.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../build/MileshkinMaksim/MileshkinMaksim.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../build/MileshkinMaksim/MileshkinMaksim.egg-info/entry_points.txt
+[0.493s] writing requirements to ../build/MileshkinMaksim/MileshkinMaksim.egg-info/requires.txt
+[0.493s] writing top-level names to ../build/MileshkinMaksim/MileshkinMaksim.egg-info/top_level.txt
+[0.493s] writing manifest file '../build/MileshkinMaksim/MileshkinMaksim.egg-info/SOURCES.txt'
+[0.494s] reading manifest file '../build/MileshkinMaksim/MileshkinMaksim.egg-info/SOURCES.txt'
+[0.494s] writing manifest file '../build/MileshkinMaksim/MileshkinMaksim.egg-info/SOURCES.txt'
+[0.495s] running build
+[0.495s] running build_py
+[0.495s] creating /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build
+[0.495s] creating /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build/lib
+[0.495s] creating /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build/lib/MileshkinMaksim
+[0.495s] copying MileshkinMaksim/__init__.py -> /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build/lib/MileshkinMaksim
+[0.495s] running install
+[0.495s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.496s]   warnings.warn(
+[0.496s] running install_lib
+[0.496s] creating /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages/MileshkinMaksim
+[0.496s] copying /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build/lib/MileshkinMaksim/__init__.py -> /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages/MileshkinMaksim
+[0.496s] byte-compiling /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages/MileshkinMaksim/__init__.py to __init__.cpython-310.pyc
+[0.496s] running install_data
+[0.497s] creating /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/share/ament_index
+[0.497s] creating /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/share/ament_index/resource_index
+[0.497s] creating /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/share/ament_index/resource_index/packages
+[0.497s] copying resource/MileshkinMaksim -> /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/share/ament_index/resource_index/packages
+[0.497s] copying package.xml -> /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/share/MileshkinMaksim
+[0.497s] running install_egg_info
+[0.498s] Copying ../build/MileshkinMaksim/MileshkinMaksim.egg-info to /home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages/MileshkinMaksim-0.0.0-py3.10.egg-info
+[0.499s] running install_scripts
+[0.512s] writing list of installed files to '/home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/install.log'
+[0.529s] Invoked command in '/home/ubumax/ROS_Labs/Module2/ex03/MileshkinMaksim' returned '0': PYTHONPATH=/home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/prefix_override:/home/ubumax/ROS_Labs/Module2/ex03/install/MileshkinMaksim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/MileshkinMaksim build --build-base /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/build install --record /home/ubumax/ROS_Labs/Module2/ex03/build/MileshkinMaksim/install.log --single-version-externally-managed
