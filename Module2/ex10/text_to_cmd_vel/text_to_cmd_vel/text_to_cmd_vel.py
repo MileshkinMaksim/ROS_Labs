@@ -26,11 +26,11 @@ class Text_To_Cmd_Vel(Node):
         message = Twist()
         if command == "turn_left":
             message.angular.z = self.angle
-        if command == "turn_right":
+        elif command == "turn_right":
             message.angular.z = -self.angle
-        if command == "move_forward":
+        elif command == "move_forward":
             message.linear.x = self.speed
-        if command == "move_backward":
+        elif command == "move_backward":
             message.linear.x = -self.speed
         else:
             self.get_logger().info(f"Can't execute {command}.\nCommands list: turn_left, turn_right, move_forward, move_backward.")
@@ -41,14 +41,13 @@ class Text_To_Cmd_Vel(Node):
         self.publisher_.publish(msg)
 
     def listener_callback(self, msg):
-	self.get_logger().info('I heard: "%s"' % msg.data)
         self.execute_command(msg.data)
 
 
 def main(args=None):
     rclpy.init(args=args)
 
-    text_to_cmd = Text_To_Cmd_Vel(1, 1.5)
+    text_to_cmd = Text_To_Cmd_Vel(1.0, 1.5)
 
     rclpy.spin(text_to_cmd)
 
