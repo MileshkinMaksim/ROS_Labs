@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='turtlesim',
-            namespace='turtlesim1',
+            namespace='turtlesim',
             executable='turtlesim_node',
             name='sim'
         ),
@@ -27,7 +27,7 @@ def generate_launch_description():
             name='mimic',
             namespace='mimic',
             remappings=[
-                ('/mimic/input/pose', '/turtlesim1/turtle1/pose'),
+                ('/mimic/input/pose', '/turtlesim/turtle1/pose'),
                 ('/mimic/output/cmd_vel', '/turtlesim2/turtle1/cmd_vel')]),
         Node(
             package='turtlesim',
