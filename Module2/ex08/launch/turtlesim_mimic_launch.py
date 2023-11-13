@@ -1,32 +1,26 @@
-#!/usr/bin/env python3
-
-import os
-
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    cwd = os.getcwd()
     return LaunchDescription([
         Node(
             package='turtlesim',
-            executable='turtlesim_node',
-            name='sim',
             namespace='turtlesim1',
-            parameters=[cwd + '/turtlesim1.params.yaml'],
-            remappings=[('/turtlesim1/turtle1/cmd_vel', '/turtle1/cmd_vel')]),
+            executable='turtlesim_node',
+            name='sim'
+        ),
         Node(
             package='turtlesim',
-            executable='turtlesim_node',
-            name='sim',
             namespace='turtlesim2',
-            parameters=[cwd + '/turtlesim2.params.yaml']),
+            executable='turtlesim_node',
+            name='sim'
+        ),
         Node(
             package='turtlesim',
-            executable='turtlesim_node',
-            name='sim',
             namespace='turtlesim3',
-            parameters=[cwd + '/turtlesim3.params.yaml']),
+            executable='turtlesim_node',
+            name='sim'
+        ),
         Node(
             package='turtlesim',
             executable='mimic',
