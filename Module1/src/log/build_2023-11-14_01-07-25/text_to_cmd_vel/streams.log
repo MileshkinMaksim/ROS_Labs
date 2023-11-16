@@ -1,0 +1,43 @@
+[0.374s] Invoking command in '/home/ubumax/ros2_ws/src/text_to_cmd_vel': PYTHONPATH=/home/ubumax/ros2_ws/src/build/text_to_cmd_vel/prefix_override:/home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build install --record /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/install.log --single-version-externally-managed
+[0.514s] running egg_info
+[0.514s] creating ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info
+[0.514s] writing ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[0.514s] writing dependency_links to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[0.515s] writing requirements to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[0.515s] writing top-level names to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[0.515s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.516s] reading manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.516s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.517s] creating /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build
+[0.517s] creating /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib
+[0.517s] creating /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.517s] copying text_to_cmd_vel/text_to_cmd_vel.py -> /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.517s] copying text_to_cmd_vel/__init__.py -> /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.517s] copying text_to_cmd_vel/subscriber_member_function.py -> /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.517s] running install
+[0.517s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.517s]   warnings.warn(
+[0.517s] running install_lib
+[0.518s] creating /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[0.518s] copying /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/text_to_cmd_vel.py -> /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[0.518s] copying /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/__init__.py -> /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[0.518s] copying /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/subscriber_member_function.py -> /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[0.518s] byte-compiling /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel/text_to_cmd_vel.py to text_to_cmd_vel.cpython-310.pyc
+[0.519s] byte-compiling /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel/__init__.py to __init__.cpython-310.pyc
+[0.519s] byte-compiling /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.519s] running install_data
+[0.519s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (subscriber_member_function.py, line 43)
+[0.519s] creating /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/share/ament_index
+[0.520s] creating /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/share/ament_index/resource_index
+[0.520s] creating /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.520s] copying resource/text_to_cmd_vel -> /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.520s] copying package.xml -> /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/share/text_to_cmd_vel
+[0.520s] running install_egg_info
+[0.521s] Copying ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel-0.0.0-py3.10.egg-info
+[0.521s] running install_scripts
+[0.535s] Installing text_to_cmd_vel script to /home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[0.535s] writing list of installed files to '/home/ubumax/ros2_ws/src/build/text_to_cmd_vel/install.log'
+[0.551s] Invoked command in '/home/ubumax/ros2_ws/src/text_to_cmd_vel' returned '0': PYTHONPATH=/home/ubumax/ros2_ws/src/build/text_to_cmd_vel/prefix_override:/home/ubumax/ros2_ws/src/install/text_to_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/build install --record /home/ubumax/ros2_ws/src/build/text_to_cmd_vel/install.log --single-version-externally-managed
