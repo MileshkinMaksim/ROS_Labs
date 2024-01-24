@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'circle_movement = robot_cirlce.circle_movement:main',
+            'circling = robot_cirlce.circling:main'
         ],
     },
 )

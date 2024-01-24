@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'random_movement = robot_random.random_movement:main',
+            'randoming = robot_random.randoming:main'
         ],
     },
 )
